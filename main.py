@@ -48,7 +48,7 @@ def delete_contact(file, addresses):
   if select == 'q':
     return
   elif select in addresses:
-    print(f'Deleting \'{select}\'. Details: {addresses[select]}')
+    print(f'Delete \'{select}\'. Details: {addresses[select]}')
     del addresses[select]
     write_data(file, addresses)
   else:
