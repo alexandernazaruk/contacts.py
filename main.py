@@ -89,7 +89,7 @@ def add_contact():
   addresses[name] = [email, phone]
   write_data('addressbook.txt', addresses)
 
-print('Hello! This is your address book app.')
+print('Hello! This is your contact book app.')
 while True:
   print('\nMain menu:\n0 - Browse contacts\n1 - Add contact\ne - Exit')
   select = input('Select action: ')
